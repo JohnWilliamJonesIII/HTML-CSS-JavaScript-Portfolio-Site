@@ -5,15 +5,15 @@
 /*  import custom fonts */
 /* Matrix Font */
 @font-face {
-  font-family: "Matrix Code Font";
-  src: url("/fonts/matrix-code-nfi.otf") format("otf");
+  font-family: "Matrix";
+  src: url("fonts/matrix-code-nfi.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 /* Expanse/Protomolecule Font */
 @font-face {
   font-family: "Protomolecule";
-  src: url("/fonts/Protomolecule-Regular.ttf") format("tff");
+  src: url("fonts/Protomolecule.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
@@ -260,15 +260,18 @@ section .title::after {
 }
 .home .home-content .text-1 {
   font-size: 27px;
+  background: #000;
 }
 .home .home-content .text-2 {
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
+  background: #000;
 }
 .home .home-content .text-3 {
   font-size: 40px;
   margin: 5px 0;
+  background: #000;
 }
 .home .home-content .text-3 span {
   color: #3e007f;
@@ -288,7 +291,7 @@ section .title::after {
 }
 .home .home-content a:hover {
   color: #3e007f;
-  background: none;
+  background: #000;
 }
 
 /* about section styling */
