@@ -129,7 +129,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Protomolecule-Regular";
+  font-family: "Protomolecule";
 }
 section .title::before {
   content: "";
@@ -338,6 +338,12 @@ section .title::after {
   background: none;
 }
 
+.about .about-content #portrait-right-column {
+  width: 35% !important;
+  position: absolute;
+  margin: -30% 40%;
+}
+
 /* services section styling */
 .services,
 .teams {
@@ -383,6 +389,10 @@ section .title::after {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
+}
+
+.services .title::after, .teams .title::after{
+  color: #fff;
 }
 
 /* skills section styling */
